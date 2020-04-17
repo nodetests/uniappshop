@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/special/special",
+    "pages/classify/classify",
+    "pages/car/car",
+    "pages/my/my",
+    "pages/category/category",
+    "pages/goodlist/goodlist",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/buy/buy",
+    "pages/location/location"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#B4282D",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#f46",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/indexSelect.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/special/special",
+        "iconPath": "static/special.png",
+        "selectedIconPath": "static/specialSelect.png",
+        "text": "专题"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "static/classfiy.png",
+        "selectedIconPath": "static/classfiySelect.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "iconPath": "static/car.png",
+        "selectedIconPath": "static/carSelect.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/mySelect.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于为您就近匹配门店"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap98.json"
+}

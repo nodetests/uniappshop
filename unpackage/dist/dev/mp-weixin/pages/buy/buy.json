@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "购买",
+  "usingComponents": {
+    "lxc-count": "/components/lxc-count/lxc-count"
+  }
+}

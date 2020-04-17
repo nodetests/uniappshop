@@ -1,0 +1,1 @@
+<view class="apps data-v-b82da8d8"><view data-event-opts="{{[['tap',[['location',['$event']]]]]}}" class="locations data-v-b82da8d8" bindtap="__e">{{''+address+''}}</view></view>

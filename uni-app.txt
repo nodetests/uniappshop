@@ -1,0 +1,52 @@
+npm
+内置终端
+app真机
+uani-app编辑
+js-bet
+js压缩
+ts支持
+sass
+<template>
+    <div>
+        index
+    </div>
+</template>
+
+<script>
+export default {
+name: "",
+components: {
+
+},
+props: {},
+data () {
+  return {
+    }
+  },
+  methods: {
+
+  },
+  mounted () {
+
+  },
+  onLoad () {
+
+  },
+  filters: {
+
+  },
+  computed: {
+
+  },
+  watch: {
+
+  },
+  directives: {
+
+  }
+}
+</script>
+
+<style scoped lang="scss">
+
+</style>

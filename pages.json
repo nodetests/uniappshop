@@ -1,0 +1,161 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/special/special",
+			"style": {
+				"navigationBarTitleText": "专题",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/car/car",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/goodlist/goodlist",
+			"style": {
+				"navigationBarTitleText": "商品",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/buy/buy",
+			"style": {
+				"navigationBarTitleText": "购买",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/location/location",
+			"style": {
+				"navigationBarTitleText": "地图",
+				"app-plus": {
+					"navigationStyle": "custom",
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "地点",
+								"fontSize": "16",
+								"float": "left",
+								"color": "#fff"
+							}
+						],
+						"searchInput": {
+							"align": "center",
+							"placeholder": "请输入搜索地点",
+							"borderRadius": "50upx",
+							"backgroundColor": "#fff"
+						}
+					}
+
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#B4282D",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f46",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/indexSelect.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/special/special",
+				"iconPath": "static/special.png",
+				"selectedIconPath": "static/specialSelect.png",
+				"text": "专题"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/classfiy.png",
+				"selectedIconPath": "static/classfiySelect.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/car/car",
+				"iconPath": "static/car.png",
+				"selectedIconPath": "static/carSelect.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/mySelect.png",
+				"text": "我的"
+			}
+		]
+	}
+}
